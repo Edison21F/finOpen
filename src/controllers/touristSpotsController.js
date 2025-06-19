@@ -1,4 +1,4 @@
-const { TouristSpot } = require('../../database.orm');
+const { TouristSpot } = require('../database/database.orm');
 const { asyncHandler, createError } = require('../middleware/errorHandler');
 const { logAudit, logger } = require('../config/logger');
 

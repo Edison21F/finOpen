@@ -1,4 +1,4 @@
-const { Route } = require('../../database.orm');
+const { Route } = require('../database/database.orm');
 const { asyncHandler, createError } = require('../middleware/errorHandler');
 const { logAudit, logger } = require('../config/logger');
 

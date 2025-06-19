@@ -1,4 +1,4 @@
-const { PersonalizedMessage } = require('../../database.orm');
+const { PersonalizedMessage } = require('../database/database.orm');
 const { asyncHandler, createError } = require('../middleware/errorHandler');
 const { logAudit, logger } = require('../config/logger');
 
