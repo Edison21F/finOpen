@@ -1,0 +1,40 @@
+{
+  "name": "openblind-backend",
+  "version": "1.0.0",
+  "description": "Backend para OpenBlind - Plataforma de asistencia para personas con discapacidad visual",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "node src/database/migrate.js",
+    "seed": "node src/database/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "joi": "^17.9.2",
+    "winston": "^3.10.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.3",
+    "sequelize": "^6.32.1",
+    "mongoose": "^7.5.0",
+    "multer": "^1.4.5-lts.1",
+    "express-rate-limit": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "accessibility",
+    "blind",
+    "navigation",
+    "tourism",
+    "beacons"
+  ],
+  "author": "OpenBlind Team",
+  "license": "MIT"
+}
